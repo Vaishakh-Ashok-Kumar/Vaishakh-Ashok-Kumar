@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @Vaishakh-Ashok-Kumar
-- 👀 I’m interested in cybersecurity,ethical hacking,machine learning,computer vision.....
-- 🌱 I’m currently pursuing Bachelor’s degree in Computer Science.
+- 👀 I’m interested in cybersecurity,ethical hacking,security operation,triaging.....
+- 🌱 I currently work as a SQE @Infosys.
 - 📫You can reach me on vaishakhashok101@gmail.com
