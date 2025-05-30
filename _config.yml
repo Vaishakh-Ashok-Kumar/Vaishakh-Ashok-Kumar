@@ -1,4 +1,4 @@
-baseurl: "/Vaishakh-Ashok-Kumar" # the subpath of your site, e.g. blog/
+baseurl: "/dev-portfolio" # the subpath of your site, e.g. blog/
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com/
 
 title: its.vaishkah
