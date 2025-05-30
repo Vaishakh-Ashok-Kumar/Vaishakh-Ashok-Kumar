@@ -26,9 +26,16 @@ layout: default
       <div class="col-lg-8 mx-auto px-0">
         <h2 class="mb-4">Posts tagged with <span class="text-primary">{{ page.tag }}</span></h2>
         <div class="bg-white shadow block">
-          {% assign tagname = page.tag %}
+          {% assign tagname = page.tag | downcase %}
           {% for post in site.posts %}
-            {% if post.tags contains tagname %}
+            {% assign matched = false %}
+            {% for t in post.tags %}
+              {% assign t_lower = t | downcase %}
+              {% if t_lower == tagname %}
+                {% assign matched = true %}
+              {% endif %}
+            {% endfor %}
+            {% if matched %}
               {% include post.html %}
             {% endif %}
           {% endfor %}

@@ -1,5 +1,5 @@
 ---
 layout: tags
-tag: IDPS
+tag: idps
 permalink: /tag/idps/
 ---
