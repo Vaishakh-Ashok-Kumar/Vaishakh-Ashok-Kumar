@@ -1,0 +1,60 @@
+baseurl: "/Vaishakh-Ashok-Kumar" # the subpath of your site, e.g. blog/
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com/
+
+title: its.vaishkah
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to my portfolio — a space where passion meets precision. With a strong foundation in software quality engineering and a growing expertise in cybersecurity, 
+  I craft solutions that are not only reliable but secure. Explore my journey, projects, and insights as I strive to bridge the gap between quality assurance and
+  cyber defense, all while aiming to make the digital world a safer place
+
+# Scss Directory
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+#  - jekyll/tagging
+
+paginate: 6
+paginate_path: "/page/:num"
+
+# include
+include:
+  - _pages
+  - _authors
+
+# Pages Path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
+  - scope:
+      path: "_authors"
+    values:
+      permalink: /author/:basename:output_ext
+      layout: author
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: post/:title:output_ext
+      layout: post
+
+# Tags
+tag_page_dir: tag
+tag_page_layout: tags
+tag_permalink_style: pretty
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

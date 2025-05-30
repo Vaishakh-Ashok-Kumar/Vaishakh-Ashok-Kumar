@@ -1,0 +1,48 @@
+########################### Navigation ###################################
+menu:
+  # main menu
+  main:
+    - { name: Home, url: "/" }
+    - { name: Contact, url: "contact.html" }
+    - { name: Portfolio, url: "tools.html" }
+
+  # Footer menu
+  footer:
+    - { name: Home, url: "/" }
+    - { name: Contact, url: "contact.html" }
+    - { name: Portfolio, url: "tools.html" }
+
+######################### Default Parameters ###########################
+
+
+# meta data
+author: "Themefisher"
+description: ""
+
+# contact form action
+contact_form_action: "#" # contact form works with : https://formspree.io
+# copyright
+copyright: "Copyright &copy; 2022 Designed and Developed by [Themefisher](https://themefisher.com)"
+
+# preloader
+preloader:
+  enable: true
+  preloader: "" # use png, jpg, svg or gif format
+
+############################## Social Site ##########################
+social:
+  - name: "facebook"
+    icon: "ti-facebook" # themify icon pack https://themify.me/themify-icons
+    link: "#"
+
+  - name: "twitter"
+    icon: "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+    link: "#"
+
+  - name: "github"
+    icon: "ti-github" # themify icon pack https://themify.me/themify-icons
+    link: "https://github.com/Vaishakh-Ashok-Kumar/"
+
+  - name: "linkedin"
+    icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+    link: "https://www.linkedin.com/in/vaishakh-ashok-kumar"

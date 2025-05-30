@@ -1,0 +1,17 @@
+####################### banner #######################################
+banner:
+  enable: true
+  title: "Hi, I'm Vaishakh. <br>An aspiring SOC Analyst trying to break into the world of Cybersecurity"
+  image: "/assets/images/banner/analyst-4.png"
+  bg_image: "/assets/images/banner/banner-bg.svg"
+
+######################## call to action ###############################
+call_to_action:
+  enable: true
+  title: "Wana know more about me!"
+  image: "/assets/images/professional.png"
+  description: "Dedicated to growth and impact—see my professional background here."
+  button:
+    enable: true
+    label: "Visit Here"
+    link: "https://vaishakh-ashok-kumar.github.io/vaishakh-resume/"
