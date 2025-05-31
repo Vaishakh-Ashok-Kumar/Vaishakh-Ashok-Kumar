@@ -1,6 +1,6 @@
 ---
 title : "Vaishakh"
-image : "/assets/images/author/john-doe.jpg"
+image : "/assets/images/author/author.jpg"
 description : "SQE"
 ---
 
