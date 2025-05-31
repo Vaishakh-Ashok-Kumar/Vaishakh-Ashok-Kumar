@@ -30,8 +30,8 @@ tools:
 - title: Writeups
   tool:
   # tool loop in tool category
-  - name: Mailchimp
-    image: "/assets/images/tools/MailChimp.jpg"
+  - name: Google Chronicle
+    image: "/assets/images/tools/Google-Chronicle-logo.png"
     link: "/404.html"
 
 
