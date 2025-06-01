@@ -34,5 +34,8 @@ tools:
     image: "/assets/images/tools/Google-Chronicle-logo.png"
     link: "/404.html"
 
+  - name: TryHackMe - Crack the Hash
+    image: "/assets/images/post/crack-the-hash.png"
+    link: "/post/tryhackme-crack-the-hash.html"
 
 ---

@@ -235,3 +235,58 @@
     }
   }
 }
+//TryHackMe badge
+.badge-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px 0 0;
+}
+
+.tryhackme-badge {
+  width: 400px;           /* Large for desktop */
+  height: auto;
+  max-width: 60vw;        /* Can take up to 60% of viewport */
+  object-fit: contain;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .tryhackme-badge {
+    width: 320px;
+    max-width: 80vw;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .badge-wrapper {
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .tryhackme-badge {
+    width: 280px;
+    max-width: 90vw;
+  }
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
