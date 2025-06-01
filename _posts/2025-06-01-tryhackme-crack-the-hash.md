@@ -37,9 +37,9 @@ This room is all about rolling up your sleeves and getting your hands dirty with
 
 [Sample]: https://hashcat.net/wiki/doku.php?id=example_hashes
 
-`Online Tools`: When you’re feeling lazy (or efficient), online hash crackers can save you time. Just paste the hash, solve a captcha, and let the internet do the heavy lifting. [Sample].
+`Online Tools`: When you’re feeling lazy (or efficient), online hash crackers can save you time. Just paste the hash, solve a captcha, and let the internet do the heavy lifting. [CrackStation].
 
-[Sample]: https://crackstation.net/
+[CrackStation]: https://crackstation.net/
 
 **Now let's get started with the questions and their answers**
 
