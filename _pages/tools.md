@@ -35,7 +35,11 @@ tools:
     link: "/404.html"
 
   - name: TryHackMe - Crack the Hash
-    image: "/assets/images/post/crack-the-hash.png"
+    image: "/assets/images/tools/crack-the-hash.png"
     link: "/post/tryhackme-crack-the-hash.html"
+
+  - name: TryHackMe - Investigating Windows
+    image: "/assets/images/tools/investigating-windows.png"
+    link: "/post/tryhackme-investigating-windows.html"
 
 ---
