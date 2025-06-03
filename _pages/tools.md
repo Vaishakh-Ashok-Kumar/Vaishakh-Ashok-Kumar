@@ -39,7 +39,7 @@ tools:
     link: "/post/tryhackme-crack-the-hash.html"
 
   - name: TryHackMe - Investigating Windows
-    image: "/assets/images/tools/investigating-windows.png"
+    image: "/assets/images/tools/Investigating-Windows.png"
     link: "/post/tryhackme-investigating-windows.html"
 
 ---

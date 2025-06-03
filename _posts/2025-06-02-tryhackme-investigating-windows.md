@@ -1,6 +1,6 @@
 ---
 title : "TryHackMe - Investigating Windows"
-image : "/assets/images/post/investigating-windows.png"
+image : "/assets/images/post/Investigating-Windows.png"
 author : "Vaishakh"
 date: 2025-06-02 22:11:00 +0600
 description : "A writeup on the TryHackMe room Investigating Windows"
